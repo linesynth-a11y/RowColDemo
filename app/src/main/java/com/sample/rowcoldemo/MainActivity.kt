@@ -38,8 +38,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MainScreen(modifier: Modifier = Modifier) {
-    Column(horizontalAlignment = Alignment.End,
-        modifier = modifier.width(250.dp)) {
+    Column(verticalArrangement = Arrangement.Bottom,
+        modifier = modifier.height(400.dp)) {
         TextCell("1")
         TextCell("2")
         TextCell("3")
